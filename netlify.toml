@@ -1,7 +1,7 @@
 [build]
   command = "chmod a+x ./deploy.sh && ./deploy.sh"
   # functions = "lambda"
-  publish = "build"
+  publish = "public"
 
 [[redirects]]
   from = "/*"
